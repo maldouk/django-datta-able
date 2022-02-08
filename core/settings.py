@@ -31,7 +31,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.home',  # Enable the inner home (home)
-    'apps.database.apps.DatabaseConfig'
+    'apps.database.apps.DatabaseConfig', #Enable the database part
+    'django_extensions', #used to generate the database visualization
+    
 ]
 
 MIDDLEWARE = [
